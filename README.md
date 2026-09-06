@@ -1,7 +1,7 @@
-# Practice 3 · Mini calculator
+# Homework 3 · Print from the names
 
 **Week 03 · Types & variables**  
-**Theme:** Named boxes with rules
+**Theme:** Pick a type, give it a first value, print the name
 
 
 ## Demo video (required)
@@ -13,34 +13,41 @@ Work without a working video link is incomplete.
 
 
 ## What to build
-Ask for two numbers. Store them. Compute sum, difference, and product into **named** boxes. Print labeled results. Types that match the math.
+Lab 3, then two more boxes from this week’s menu, then a short paragraph built from the variable names. The point is not a longer bio — it is proving the output comes from the boxes, not leftover quotes.
 
 ## Requirements
-- Prompt for two `double`s with `cin`
-- `sum`, `difference`, and `product` are named variables — not a pile of math in `cout`
-- Labeled output a classmate could check by hand
-- Good names. No unlabeled dumps
+- Everything from Lab 3: `name` (string), `age` (int), `height_m` (double), `initial` (char), `student` (bool), and one `const`
+- Two more initialized boxes: `int credits` and `double gpa`
+- A short paragraph printed with `cout` from those names — a classmate should be able to read it
+- Change one value, rebuild, and prove the paragraph changed
+- File-top comment with your name and the week
+- One `.cpp`
 
-## Sample session
+## Sample output
 ```
-First number: 12.5
-Second number: 4
-Sum: 16.5
-Difference: 8.5
-Product: 50
+=== About me ===
+Name: Sam Rivera
+Age: 19
+Credits: 12
+GPA: 3.8
+Year: 2026
+
+Sam Rivera is 19, taking 12 credits in 2026, with a 3.8 GPA.
 ```
+
+Your paragraph can be different. The rule is the same: the numbers and the name on the screen came out of the variables.
 
 ## Starter
-`main.cpp` — prompts are already there. You write the math and the labels.
+`main.cpp` — or keep going from your lab file. Either is fine.
 
 ## Deliverables
 1. Course-visible GitHub repo (link opens)
-2. README: how to run + a sample session
+2. README: how to run + a sample of the paragraph
 3. Short demo video (tool + code + run)
 4. Canvas links
 
 ## Scope fence
-`cin` is expected. No loops or functions required.
+One file. No `cin` this week — that is next week. No extra functions. No `sizeof`.
 
 ## Integrity
 - AI = tutor, not ghostwriter
@@ -50,7 +57,7 @@ Product: 50
 - Late: course policy (−10%/day unless stated otherwise)
 
 ## Rubric
-Graded on: it runs, it meets the prompt, output is labeled, and the GitHub repo plus demo video are there.
+Graded on: it runs, it meets the prompt, the paragraph is printed from the names, and the GitHub repo plus demo video are there.
 
 ## Getting started
 

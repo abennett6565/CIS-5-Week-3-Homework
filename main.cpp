@@ -1,19 +1,26 @@
 #include <iostream>
+#include <string>
 
-// Practice 3 — Your Name
-// CIS 5 Week 03 · Mini calculator
+// Homework 3 — Your Name
+// CIS 5 Week 03 · Types & variables
 
 int main() {
-  double a = 0.0;
-  double b = 0.0;
+  const int CURRENT_YEAR = 2026;
 
-  std::cout << "First number: ";
-  std::cin >> a;
-  std::cout << "Second number: ";
-  std::cin >> b;
+  // TODO: Lab 3 boxes — initialize on the same line
+  // std::string name = ...;
+  // int age = ...;
+  // double height_m = ...;
+  // char initial = ...;
+  // bool student = ...;
 
-  // TODO: compute sum, difference, product into named doubles
-  // TODO: print labeled results
+  // TODO: two more from this week's menu
+  // int credits = ...;
+  // double gpa = ...;
+
+  std::cout << "=== About me ===\n";
+  // TODO: labeled lines from the names
+  // TODO: one short paragraph from those same names — not leftover quotes
 
   return 0;
 }
