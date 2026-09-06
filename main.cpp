@@ -18,9 +18,19 @@ int main() {
   // int credits = ...;
   // double gpa = ...;
 
+  // TODO: a comment that explains a type choice (why int, why double, or why const)
+
   std::cout << "=== About me ===\n";
   // TODO: labeled lines from the names
   // TODO: one short paragraph from those same names — not leftover quotes
+
+  // TODO: change one value from a first choice. Comment the old value,
+  // the new value, and why the console followed.
+
+  // TODO: two lines that would not compile — leave them commented
+  // Example shape (write your own, with the reason):
+  // int age = "nineteen";   // would not compile — ...
+  // CURRENT_YEAR = 2027;    // would not compile — ...
 
   return 0;
 }
